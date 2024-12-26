@@ -1,0 +1,309 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+      <!-- CSS LINKS -->
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+    <title>bts5</title>
+
+  </head>
+
+  <body> 
+
+<div class="wrapper">
+  <div class="row">
+    <div class="col-lg-12">
+      <!--  -->
+    <div id="cex" class="carousel slide" data-bs-ride="carousel">
+<!--indicators  -->
+       <ol class="carousel-indicators">
+    <li data-bs-target="#cex" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#cex" data-bs-slide-to="1 "></li>
+    <li data-bs-target="#cex" data-bs-slide-to="2"></li>
+    <li data-bs-target="#cex" data-bs-slide-to="3"></li>
+
+  </ol>
+  <!--indicators  -->
+
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="2000">
+      <img src="images/img.jpg" class="d-block w-100" alt="...">
+       <div class="carousel-caption d-none d-md-block">
+        <h5>Carousel</h5>
+        <p>With controls, With indicators, With captions, interval</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="1000">
+      <img src="images/img1.jpg" class="d-block w-100" alt="...">
+       <div class="carousel-caption d-none d-md-block">
+        <h5>Carousel</h5>
+        <p>With controls, With indicators, With captions, interval</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="1000">
+      <img src="images/img2.jpg" class="d-block w-100" alt="...">
+       <div class="carousel-caption d-none d-md-block">
+        <h5>Carousel</h5>
+        <p>With controls, With indicators, With captions, interval</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="1000">
+       <img src="images/img3.jpg" class="d-block w-100" alt="...">
+       <div class="carousel-caption d-none d-md-block">
+        <h5>Carousel</h5>
+        <p>With controls, With indicators, With captions, interval</p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+      <!--  -->
+
+<!-- control -->
+    <a class="carousel-control-prev" href="#cex" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#cex" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+  <!-- cotrol -->
+
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container2">
+
+  <h1>Collapse</h1>
+<p>
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">First element</a>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Second element</button>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Both elements</button>
+</p>
+<div class="row">
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+      <div class="card card-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, laboriosam.
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="card card-body">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, quas. 
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+<div class="container1">
+
+  <h1>Dropsdown</h1>
+
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
+</div>
+
+
+
+<div class="container">
+
+  <h1>List group</h1>
+
+<ul class="list-group">
+  <li class="list-group-item active" aria-current="true">Cras justo odio</li>
+  <li class="list-group-item">Dapibus ac facilisis in</li>
+  <li class="list-group-item">Morbi leo risus</li>
+  <li class="list-group-item">Porta ac consectetur ac</li>
+  <li class="list-group-item">Vestibulum at eros</li>
+</ul>
+</div>
+
+<div class="container">
+<h1>Modal</h1>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Sit, esse consectetur minus, voluptas ullam eos beatae tempora. Sint quia mollitia minima voluptate at, minus exercitationem earum. Eum explicabo repudiandae illo.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container">
+<h1>Pagination</h1>
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</nav>
+</div>
+
+
+<div class="container">
+  <h1>Navs and tabs</h1>
+
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est quod earum quam sequi nostrum eos esse blanditiis modi reprehenderit architecto! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sapiente dolor dignissimos tempora ducimus. Debitis, eos quam. Ut itaque placeat explicabo officia commodi corrupti. Rem sint, accusamus ullam possimus veniam!</div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">In lectus neque, volutpat quis ex id, sagittis efficitur lectus. Mauris porttitor rutrum tempus. Curabitur auctor aliquam nibh, vel gravida leo dignissim nec. Integer egestas scelerisque erat, sit amet mattis velit maximus ultrices. Vivamus interdum nibh et enim ullamcorper, eget hendrerit augue ornare. Sed quis condimentum nisl, vitae tincidunt augue. Donec mauris nibh, gravida ege</div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">augue nec, auctor semper augue. Integer nec nisi accumsan, pharetra enim eget, ultricies metus. Integer nibh arcu, euismod eget quam at, lacinia ornare tellus. Fusce quis efficitur enim. In vel vestibulum urna, eu ullamcorper risus. Etiam velit purus, mattis eget gravida in, consequat vitae velit. Mauris nec scelerisque nunc.</div>
+</div>
+<br><br>
+
+<div class="d-flex align-items-start">
+  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <a class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+    <a class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+    <a class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+    <a class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+  </div>
+  <div class="tab-content" id="v-pills-tabContent">
+    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est quod earum quam sequi nostrum eos esse blanditiis modi reprehenderit architecto! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sapiente dolor dignissimos tempora du</div>
+    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">In lectus neque, volutpat quis ex id, sagittis efficitur lectus. Mauris porttitor rutrum tempus. Curabitur auctor aliquam nibh, vel gravida leo dignissim nec. Integer egestas scelerisque erat, sit amet mattis velit maximus ultrices. Vivamus interdum </div>
+    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">t mattis velit maximus ultrices. Vivamus interdum nibh et enim ullamcorper, eget hendrerit augue ornare. Sed quis condimentum nisl, vitae tincidunt augue. Donec mauris nibh, gravida ege</div>
+    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">auctor semper augue. Integer nec nisi accumsan, pharetra enim eget, ultricies metus. Integer nibh arcu, euismod eget quam at, lacinia ornare tellus. Fusce quis efficitur enim. In vel vestibulum urna, eu ullamcorper risus.</div>
+  </div>
+</div>
+</div>
+
+
+<div class="container">
+  <!-- Navbar -->
+  <h1>Navbar</h1>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- Navbar -->
+</div>
+
+
+
+<!-- not work -->
+<div class="container">
+  
+<h1>Popovers</h1>
+
+
+<button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing coging. Right?">Click to toggle popover</button>
+</div>
+<!-- do not work -->
+
+  
+
+
+  <div class="container">
+    <h1>Tooltips</h1>
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title=" top">
+  First
+</button>
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="right">
+  Second
+</button>
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="bottom">
+  Third
+</button>
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" title="left">
+  Four
+</button>
+  </div>
+
+
+
+
+
+
+    <!--js link-->
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    
+
+  </body>
+</html>
